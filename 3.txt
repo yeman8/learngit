@@ -1,1 +1,1023 @@
 to server
+  289  ll /usr/local/nginx/
+  290  ll /usr/local/nginx/html/
+  291  systemctl restart php-fpm.service
+  292  ll /usr/local/php/lib/php/extensions/no-debug-non-zts-20170718/
+  293  vim /usr/local/php/lib/php.ini 
+  294  systemctl restart php-fpm.service
+  295  cd /usr/local/nginx/html/
+  296  vim r.php
+  297  cd ~
+  298  ll
+  299  ip a
+  300  vim  /usr/local/nginx/conf/nginx.conf
+  301  vim /usr/local/nginx/html/
+  302  vim /usr/local/nginx/html/r.php 
+  303  vim /usr/local/nginx/html/r1.php 
+  304  ll
+  305  vim /usr/local/nginx/html/setr.php 
+  306  vim /usr/local/nginx/html/r.php 
+  307  vim /usr/local/nginx/html/setr.php 
+  308  vim /usr/local/nginx/html/getr.php 
+  309  vim /usr/local/nginx/html/setr.php 
+  310  vim /usr/local/nginx/html/getr.php 
+  311  vim /usr/local/nginx/html/setr.php 
+  312  cd /usr/local/nginx/html/
+  313  rz -E
+  314  **0wget http://files.cnblogs.com/iforever/session.zip
+  315  get http://files.cnblogs.com/iforever/session.zip
+  316  wget http://files.cnblogs.com/iforever/session.zip
+  317  unzip session.zip 
+  318  cd session
+  319  cd demo/
+  320  vim test.php 
+  321  cd ..
+  322  ll
+  323  cd session/
+  324  ll
+  325  vim session.php 
+  326  cd ..
+  327  cd demo/
+  328  vim test.php 
+  329  vim t2.php
+  330  vim test.php 
+  331  vim /usr/redis/redis.conf 
+  332  find / -name php.ini
+  333  vim  /usr/local/php/lib/php.ini
+  334  systemctl restart php-fpm.service
+  335  ll
+  336  cd ..
+  337  vim setr.php 
+  338  vim getr.php 
+  339  vim setr.php 
+  340  ll
+  341  vim sm.php
+  342  /usr/redis/redis-cli 
+  343  ll
+  344  vim 1.php
+  345  vim 2.php
+  346  /usr/redis/redis-cli
+  347  vim 1.php
+  348  vim 2.php
+  349  /usr/redis/redis-cli
+  350  vim 2.php
+  351  vim sm.php 
+  352  vim 2.php
+  353  vim sm.php 
+  354  vim 2.php
+  355  vim setr.php 
+  356  vim getr.php 
+  357  vim setr.php 
+  358  vim 1.php 
+  359  vim 2.php 
+  360  vim 1.php 
+  361  vim 2.php 
+  362  vim sm.php 
+  363  vim 1.php 
+  364  vim sm.php 
+  365  vim 1.php 
+  366  vim 2.php 
+  367  vim sm.php 
+  368  vim 1.php 
+  369  vim 2.php 
+  370  vim 1.php 
+  371  vim 2.php 
+  372  vim 1.php 
+  373  vim 2.php 
+  374  vim 1.php 
+  375  vim 2.php 
+  376  vim sm.php 
+  377  vim 1.php 
+  378  vim 2.php 
+  379  vim 1.php 
+  380  vim sm.php 
+  381  vim 1.php 
+  382  vim 2.php 
+  383  vim 1.php 
+  384  vim 2.php 
+  385  ll
+  386  cd session
+  387  vim demo/test.php 
+  388  cd ..
+  389  vim sm.php 
+  390  vim session/demo/test.php 
+  391  vim 1.php 
+  392  vim /usr/local/php/lib/php.ini 
+  393  systemctl reload php-fpm.service
+  394  vim /usr/local/php/etc/php-fpm.conf
+  395  vim 3.php
+  396  vim 4.php
+  397  vim 5.php
+  398  vim 4.php
+  399  vim 5.php
+  400  vim 4.php
+  401  vim 6.php
+  402  vim 7.php
+  403  vim 6.php
+  404  vim 7.php
+  405  vim 6.php
+  406  vim 7.php
+  407  vim getr.php 
+  408  vim setr.php 
+  409  vim 6.php
+  410  vim 1.php 
+  411  wget http://www.5lazy.cn/content/uploadfile/201607/4ed61469774156.zip
+  412  unzip 4ed61469774156.zip 
+  413  ll
+  414  vim 7.php 
+  415  vim 8.php
+  416  mv Myredis.class.php 8.php
+  417  vim 9.php
+  418  scp 8.php root@10.9.236.195:/usr/local/nginx/html/8.php
+  419  scp 9.php root@10.9.236.195:/usr/local/nginx/html/9.php
+  420  ifconfig lo:0 10.9.236.200 netmask 255.255.255.255 broadcast 10.9.236.200
+  421  route add default gw 10.9.236.200
+  422  ip a
+  423  history
+  424  vim 2.php 
+  425  vim 1.php 
+  426  vim 2.php 
+  427  ll
+  428  cd /usr/local/nginx/html/
+  429  vim 2.php
+  430  yum install htop
+  431  wget http://pkgs.repoforge.org/rpmforge-release/rpmforge-release-0.3.4-1.el3.rf.x86_64.rpm
+  432  rpm -Uvh rpmforge-release-0.3.4-1.el3.rf.x86_64.rpm  
+  433  wget http://sourceforge.net/projects/htop/files/htop/1.0.2/htop-1.0.2.tar.gz -O /root/htop-1.0.2.tar.gz
+  434  wget http://sourceforge.net/projects/htop/files/htop/1.0.2/htop-1.0.2.tar.gz 
+  435  wget http://iweb.dl.sourceforge.net/project/htop/htop/1.0.2/htop-1.0.2.tar.gz -O /root/htop-1.0.2.tar.gz
+  436  yum install htop
+  437  yum install libncurses-devel
+  438  :q
+  439  ll
+  440  vim 5.php 
+  441  ip a
+  442  curl http://10.9.236.194/4.php
+  443  ps -ef|grep nginx
+  444  ps -ef|grep php-fpm
+  445  systemctl restart php-fpm.service
+  446  ll /usr/local/php/etc/
+  447  vim /usr/local/php/etc/php-fpm.conf
+  448  vim /usr/local/php/etc/php-fpm.d/www.conf
+  449  systemctl restart php-fpm.service
+  450  vim /usr/local/php/etc/php-fpm.d/www.conf
+  451  cat /var/log/fpm-php.www.log
+  452  find / -name fpm-php.www.log
+  453  cd /var/log/
+  454  ll
+  455  ls
+  456  find / -name www.log
+  457  cat /var/log/fpm-php.www.log
+  458  vim /usr/local/nginx/conf/nginx.conf
+  459  systemctl restart nginx.service
+  460  vim /usr/local/nginx/conf/nginx.conf
+  461  systemctl restart nginx.service
+  462  vim /usr/local/nginx/conf/nginx.conf
+  463  vim /var/logs/nginx.error.log
+  464  ll /var/logs/
+  465  vim /var/log/nginx.error.log
+  466  vim /usr/local/nginx/conf/nginx.conf
+  467  systemctl restart nginx.service
+  468  vim /var/log/nginx.error.log
+  469  find / -name access 
+  470  cd /usr/local/nginx/logs/
+  471  ll
+  472  vim /usr/local/nginx/conf/nginx.conf
+  473  tail -10 access.log 
+  474  tail -100 access.log 
+  475  date
+  476  cd /usr/local/php/
+  477  ll
+  478  cd var/
+  479  ll
+  480  cd log/
+  481  ll
+  482  vim php-fpm.log 
+  483  vim /usr/local/nginx/html/4.php 
+  484  cd /usr/local/nginx/html/
+  485  ll
+  486  vim setr.php 
+  487  vim delr.php
+  488  vim /usr/local/php/lib/php.ini 
+  489  rz 
+  490  cp /usr/local/php/lib/php.ini p.txt
+  491  ll
+  492  cd ~
+  493  ll
+  494  top
+  495  cd /usr/local/nginx/html/
+  496  ll
+  497  vim 4.php 
+  498  vim 5wq.php 
+  499  vim 5.php 
+  500  vim 3.php 
+  501  vim 4.php 
+  502  vim 5.php 
+  503  vim getr.php 
+  504  systemctl stop nginx.service
+  505  systemctl start nginx.service
+  506  systemctl stop nginx.service
+  507  systemctl start nginx.service
+  508  systemctl stop nginx.service
+  509  systemctl start nginx.service
+  510  vim /etc/systemd/system/php-fpm.service
+  511  vim /etc/systemd/system/redis-server.service
+  512  systemctl daemon-reload 
+  513  ps -ef |grep redis
+  514  systemctl stop redis-server.service
+  515  ps -ef |grep redis
+  516  /usr/redis/redis-cli quit
+  517  ps -ef |grep redis
+  518  /usr/redis/redis-cli shutdown
+  519  ps -ef |grep redis
+  520  systemctl start redis-server.service
+  521  ps -ef |grep redis
+  522  systemctl stop redis-server.service
+  523  ps -ef |grep redis
+  524  vim hostname
+  525  hostname c191
+  526  exit
+  527  vi /etc/hosts
+  528  hostname abc
+  529  cat /proc/sys/kernel/hostname 
+  530  cat /proc/sys/kernel/acct 
+  531  cat /proc/sys/kernel/acpi_video_flags 
+  532  cat /proc/sys/kernel/bootloader_type 
+  533  cat /proc/sys/kernel/bootloader_version 
+  534  cat /proc/sys/kernel/cad_pid 
+  535* cat /proc/
+  536  hostname
+  537  uname
+  538  ps -ef|grep redis
+  539  ps -ef|grep php
+  540  ps -ef|awk /php/
+  541  ps -ef|sed -n /php/d
+  542  ps -ef|sed -n /php/
+  543  ps -ef|sed /php/
+  544  ps -ef|sed -d /php/
+  545  ps -ef|sed -d /php/p
+  546  ps -ef
+  547  ps -ef|sed -d s/php/g
+  548  ps -ef|sed -n 
+  549  ps -ef|sed -n /php/
+  550  ps -ef|sed -n '/php/'
+  551  ps -ef|sed -n '/php/p'
+  552  ps -ef|sed '/php/p'
+  553  ps -ef|sed -n '/php/p'
+  554  ps -ef|awk /php/
+  555  ps -ef|grep php
+  556  cat /etc/passwd|akw -F '{print $1"t"$7}'
+  557  cat /etc/passwd|awk -F '{print $1"t"$7}'
+  558  cat /etc/passwd|awk -F ":" '{print $1"t"$7}'
+  559  cat /etc/passwd|awk -F ":" '{print $1"\t"$7}'
+  560  cat /etc/passwd|awk -F ":" '{print $1"\t\t"$7}'
+  561  cat /etc/passwd|awk -F ":" '{print $1'\t\t$7}'
+cat /etc/passwd|awk -F ":" '{print $1'\t\'t$7}'
+;
+  562  cat /etc/passwd|awk -F ":" '{print $1'\t\t$7}'
+cat /etc/passwd|awk -F ":" '{print $1'\t\t'$7}'
+;
+
+;
+  563  cat /etc/passwd|awk -F ":" '{print $1'\t\t$7}'
+cat /etc/passwd|awk -F ":" '{print $1'\t\t'$7}'
+
+  564  cat /etc/passwd|awk -F ":" '{print $1'\t\t$7}'
+cat /etc/passwd|awk -F ":" "{print $1'\t\t'$7}"
+  565  cat /etc/passwd|awk -F ":" '{print $1'\t\t$7}'
+cat /etc/passwd|awk -F ":" "{print $1't'$7}"
+  566  cat /etc/passwd|awk -F ":" '{print $1'\t\t$7}'
+cat /etc/passwd|awk -F ":" ‘{print $1't'$7}‘
+  567  cat /etc/passwd|awk -F ":" '{print $1'\t\t$7}'
+cat /etc/passwd|awk -F ":" ‘{print $1“t”$7}‘
+；
+  568  cat /etc/passwd|awk -F ":" '{print $1'\t\t$7}'
+cat /etc/passwd|awk -F ":" ‘{print $1“、t”$7}
+  569  cat /etc/passwd|awk -F":" '{print $1 "t" $7}'
+  570  cat /etc/passwd|awk -F":" '{print $1 " \t" $7}'
+  571  cat /etc/passwd|awk -F":" '{print $1 "    " $7}'
+  572  cat /etc/passwd|awk -F":" 'BEGIN {print "name    shell"} {print $1 "    " $7} END {print aaaa bbbb}'
+  573  cat /etc/passwd -5|awk -F":" 'BEGIN {print "name    shell"} {print $1 "    " $7} END {print aaaa bbbb}'
+  574  tail /etc/passwd -5|awk -F":" 'BEGIN {print "name    shell"} {print $1 "    " $7} END {print aaaa bbbb}'
+  575  cat /etc/passwd|awk -F":" 'BEGIN {print "name    shell"} {print $1 "    " $7} END {print aaaa bbbb}'
+  576  cat /etc/passwd|awk -F":" 'BEGIN {print "name    shell"} {print $1 "    " $7} END {print "aaaa bbbb"}'
+  577  tail -5 /etc/passwd|awk -F":" 'BEGIN {print "name    shell"} {print $1 "    " $7} END {print "aaaa bbbb"}'
+  578  cat /etc/passwd|awk '/root/'
+  579  cat /etc/passwd|awk '/r/'
+  580  cat /etc/passwd|awk '/ro/'
+  581  cat /etc/passwd|awk '/roo/'
+  582  cat /etc/passwd|awk '/syst/'
+  583  cat -n /etc/passwd
+  584  cat -n /etc/passwd|sed '2,5p'
+  585  cat -n /etc/passwd|sed '2,5d'
+  586  cat -n /etc/passwd|sed '2,20d'
+  587  cat -n /etc/passwd|sed -n '2,20d'
+  588  cat -n /etc/passwd|sed -n '2,20p'
+  589  cat -n /etc/passwd|sed -n '2,20'p
+  590  cat -n /etc/passwd|sed -n '15,20'p
+  591  cat -n /etc/passwd|sed  '15,20'd
+  592  cat -n -5 /etc/passwd|sed  '15,20'd
+  593  cat -n -5 /etc/passwdoa|sed  '15,20'd
+  594  cat -n -5 /etc/passwd|sed  '15,20'd
+  595* t /etc/passwd|sed  '15,20'd
+  596  cat -n -5 /etc/passwd|sed  '15,20'd
+  597  cat -n -5 /etc/passwd|sed  '5,20'd
+  598  cat -n /etc/passwd|sed  '5,20'd
+  599  cat -n /etc/passwd|sed  '5,20'p
+  600  cat -n /etc/passwd|sed  -n '5,20'p
+  601  cat -n /etc/passwd|sed  -n '5,20'd
+  602  cat -n /etc/passwd|sed  -n '5,20'p
+  603  cat -n /etc/passwd|sed  '5,20'd
+  604  cat -n /etc/passwd|sed  '5,20'p
+  605  cat -n /etc/passwd|sed  '5,20'p -n
+  606  cat -n /etc/passwd|sed  '5,20'd
+  607  cat -n /etc/passwd|sed '2,aaaaa' 
+  608  cat -n /etc/passwd|sed '2,aaaaa'p
+  609  cat -n /etc/passwd
+  610  cat -n /etc/passwd|sed '2,aaaaap'
+  611  nl /etc/passwd|sed '2,aaaaap'
+  612  nl /etc/passwd
+  613  nl /etc/passwd|sed "2,3"
+  614  nl /etc/passwd|sed "2,3"p
+  615  nl /etc/passwd|sed "2,3"p -n
+  616  nl /etc/passwd|sed '2,fdasfdas'p -n
+  617  seq 1,5
+  618  seq 1
+  619  seq 1 5
+  620  seq a-z
+  621  seq a..z
+  622  echo a..z
+  623  echo {a..z}
+  624  echo {a..z}\n
+  625  echo {a..z} -e
+  626  echo {a..z} "\n"
+  627  echo {a..z} '\n'
+  628  echo {a..z} \n
+  629  echo {a..z} -n
+  630  for s in {a..z} ;do echo $s;done
+  631  for s in {a..z} ;do echo $sdone
+  632  for s in {a..z} ;do echo $s done
+  633  for s in {a..z} ;do echo $s;done
+  634  pidof
+  635  man pidof
+  636  pidof php
+  637  pidof php-fpm
+  638  utime
+  639  uptime
+  640  uptime -p
+  641  uptime 
+  642  ipaddr=$(ip addr show to 0/0 scope global | awk '/[[:space:]]inet
+/ { print gensub("/.*","","g",$2) }')
+  643  echo ip addr show to 0/0 scope global | awk '/[[:space:]]inet
+/ { print gensub("/.*","","g",$2) }'
+  644  echo ip addr show to 0/0 scope global
+  645  echo ip addr show to 0/0 scope global | awk '/[[:space:]]inet
+/ { print gensub("/.*","","g",$2) }'
+  646  echo ip addr show to 0/0 scope global
+  647  ip addr show to 0/0 scope global
+  648  ip addr show to 0/0 scope global| awk '/[[:space:]]inet
+/ { print gensub("/.*","","g",$2) }'
+  649  ip addr show to 0/0 scope global
+  650  ip addr show to 0/0 scope global| awk '/[:space:]inet
+/ { print gensub("/.*","","g",$2) }'
+  651  ip addr show to 0/0 scope global| awk '/[[:space:]]inet
+/ { print gensub("/.*","","g",$2) }'
+  652  ll
+  653  echo `seq 10` >>test.txt
+  654  cat test.txt 
+  655  seq 3
+  656  seq 10 >>test.txt
+  657  cat test.txt 
+  658  sed -n /3,4p/
+  659  sed -n /3,4/p
+  660  sed -n /3,4/p test.txt 
+  661  sed -n "3,4p" test.txt 
+  662  sed "3,4p" test.txt 
+  663  sed "3,4p"/d test.txt 
+  664  sed "3,4d" test.txt 
+  665  sed -i s#0$# #g test.txt 
+  666  sed -i "s#0$# #g" test.txt 
+  667  sed -i s1$#a#g test.txt 
+  668  sed -i s/1/a/g test.txt 
+  669  cat test.txt 
+  670  sed -i s/$0/ /g test.txt 
+  671  sed -i s/a/ /g test.txt 
+  672  sed '2,333333333' test.txt 
+  673  sed '2,aaa' test.txt 
+  674  sed '2,aaa'test.txt 
+  675  sed '2,ddd' test.txt 
+  676  sed '2,333' test.txt 
+  677  sed '2,3c,32' test.txt 
+  678  sed '2,3c,ddddddddd32' test.txt 
+  679  sed '2,2c,ddddddddd32' test.txt 
+  680  sed '2,2,ddddddddd32' test.txt 
+  681  sed '2c,ddddddddd32' test.txt 
+  682  vi test.txt 
+  683  sed '2c,ddddddddd32' test.txt 
+  684  man sed
+  685  sed '2,8c,ddddddddd32' test.txt 
+  686  sed '2c,ddddddddd32' test.txt 
+  687  man sed "2,5p"
+  688  sed "2,5p"
+  689  sed "2,5p" test.txt 
+  690  sed "2,5p" test.txt  -n
+  691  sed "2,5d" test.txt  -n
+  692  sed "2,5d" test.txt  
+  693* sed "2,5pidof php-fpm test.txt  
+  694  sed "2,5d" test.txt  
+  695  sed 2,5pidof php-fpm test.txt  
+  696  sed 2,5p test.txt 
+  697  sed 2,5pidof php-fpm test.txt 
+  698  sed '2~3p' test.txt 
+  699  sed -n '2~3p' test.txt 
+  700  sed -n '2~4p' test.txt 
+  701  sed -n '2~5p' test.txt 
+  702  vim test.txt 
+  703  sed -n /^$/ test.txt 
+  704  sed -n ^$ test.txt 
+  705  sed -n '^$' test.txt 
+  706  sed -n '/^$/' test.txt 
+  707  sed -e '/^$/' test.txt 
+  708  cat test.txt 
+  709  sed 's/2/22/g' 
+  710  sed 's/2/22/g' test.txt 
+  711  sed 's/2/22/g' 's/3/33/g' test.txt 
+  712  sed -e 's/2/22/g'  -e 's/3/33/g' test.txt 
+  713  sed -e 's/2/22/g'  -e 's/^4/33/g' test.txt 
+  714  sed -e 's/2/22/g'  -e 's/^$/33/g' test.txt 
+  715  sed -e 's/2/22/g'  -e 's/^$/aaaaaa/g' test.txt 
+  716  sed -e 's/2/22/g'  -e 's/22/aaaaaa/g' test.txt 
+  717  wc -l
+  718  wc -l test.txt 
+  719  echo "abcdbaz"|grep -o "a[^b]b"
+  720  wc -l test.txt 
+  721  echo "abcdbaz"|grep -o "a[^b]*b
+"
+  722  echo "abcdbaz"|grep -o "a[^b]*b"
+  723  echo "abcdbaz"|grep -o "a[^b]?b"
+  724  echo "abcdbaz"|grep -o "a[^b].b"
+  725  echo "abcdbaz"|grep -o "a[^c]*b"
+  726  echo "abcdbaz"|grep -o "a[^b]*b"
+  727  echo "abcdbaz"|grep -o "a[^bc]*b"
+  728  echo "abcdbacz"|grep -o "a[^bc]*b"
+  729  echo "abcdbacz"|grep -o "a[bc]*b"
+  730  echo "abcdbacz"|grep -o "a*b"
+  731  echo "abcdbacz"|grep -o "ab"
+  732  echo "abcdbacz"|grep -o "a"
+  733  echo "abcdbacz"|grep -o "a.*b"
+  734  echo "abcdbacz"|grep -o "a.*c"
+  735  echo "abcdbacz"|grep "a.*c"
+  736  grep -o ^([^:]*).*
+  737  grep -o ^([^:]*):.*
+  738  grep -o ^[^:]*:.*
+  739  grep -o ^[^:]*:.* /etc/passwd
+  740  grep -o ^([^:]*):.* /etc/passwd
+  741  sed -r 's/^([^:]*):.*/hello \1/' /etc/passwd
+  742  ll
+  743  rz -E
+  744  yum install lrz
+  745  yum install rz
+  746  yum install lrzsz
+  747  rz -E
+  748  ll
+  749  unzip 11.zip 
+  750  ;;
+  751  ll
+  752  tar -cvf 11.tar 最新破解版JS插件/
+  753  ll
+  754  sz 11.tar 
+  755  cd 最新破解版JS插件/
+  756  ll
+  757  mv 插件说明书.doc 1.doc
+  758  rz 1.doc 
+  759  sz 1.doc 
+  760  cd 3.13.3_0
+  761  ll
+  762  cd ..
+  763  ll
+  764  rm -rf 最新破解版JS插件/
+  765  rm -f 11.tar 11.zip 
+  766  cd __MACOSX/
+  767  ll
+  768  cd ..
+  769  rm -rf __MACOSX/
+  770  ll
+  771  ip a
+  772  uname
+  773  cat /etc/motd 
+  774  vim /etc/motd 
+  775  echo "my motd">>/etc/motd 
+  776  cat /etc/motd 
+  777  tail -3  /etc/passwd
+  778  tail -33  /etc/passwd
+  779  su - old
+  780  yum install git
+  781  git --help
+  782  ll
+  783  mkdir git
+  784  cd git
+  785  ll
+  786  git
+  787  ll
+  788  ls -a
+  789  git init
+  790  ls -a
+  791  echo "Git is a version control system.">readme
+  792  echo "Git is a free.">>readme
+  793  cat readme 
+  794  git commit -m "first wote in linux"
+  795  git config --global user.name "yeman8"
+  796  git config --global user.email "53296245@qq.com"
+  797  git pull
+  798  ll
+  799  git add readme 
+  800  git status
+  801  git commit -m "first add in linux"
+  802  git status
+  803  vim readme 
+  804  git status
+  805  git diff readme 
+  806  git commit -m "first add in linux"
+  807  git add readme 
+  808  git status
+  809  git commit -m "md  in linux"
+  810  git status
+  811  git log
+  812  git log --pretty=oneline
+  813  git vi readme 
+  814  vim readme 
+  815  git add readme 
+  816  git commit -m "md  in l3333"
+  817  git status
+  818  git log --pretty=oneline
+  819  git reset --hard eb2d8d6f474b57
+  820  cat readme 
+  821  git log --pretty=oneline
+  822  git reset --hard 3657fc84d12
+  823  git log --pretty=oneline
+  824  git reflog
+  825  cat readme 
+  826  vim readme 
+  827  git add
+  828  git add readme 
+  829  git commit -m "boss"
+  830  cat readme 
+  831  git checkout readme 
+  832  cat readme 
+  833  git checkout -- readme 
+  834  cat readme 
+  835  vim readme 
+  836  git add readme 
+  837  cat readme 
+  838  git checkout -- readme 
+  839  cat readme 
+  840  git head readme 
+  841  git HEAD readme 
+  842  git reset HEAD readme 
+  843  git log --pretty=oneline
+  844  git HEAD readme 
+  845  git log
+  846  git log --pretty=oneline
+  847  cat readme 
+  848  vim readme 
+  849  git add readme 
+  850  git ststus
+  851  git ststu
+  852  git status
+  853  git commit -m "a boss2"
+  854  git status
+  855  git log --pretty=oneline
+  856  cat readme 
+  857  vim readme 
+  858  git status
+  859  cat readme 
+  860  git checkout -- readme 
+  861  cat readme 
+  862  git log --pretty=oneline
+  863  vim readme 
+  864  git add readme 
+  865  git log --pretty=oneline
+  866  cat readme 
+  867  git reset head readme 
+  868  git reset HEAD readme 
+  869  cat readme 
+  870  git chechout -- readme 
+  871  git checkout -- readme 
+  872  cat readme 
+  873  git log --pretty=oneline
+  874  git reset HEAD readme 3657fc84d123
+  875  git log --pretty=oneline
+  876  git reset HEAD  3657fc84d123
+  877  git log --pretty=oneline
+  878  ls -a
+  879  find - /name id_rsa.pub
+  880  find - /name "id_rsa.pub"
+  881  find \ -name "id_rsa.pub"
+  882  find \ -name id_rsa
+  883  find \ -name php
+  884  find / -name php
+  885  find / -name id_rsa.pub
+  886  ssh -keygen -t rsa -C "53296245@qq.com"
+  887  ssh-keygen -t rsa -C "53296245@qq.com"
+  888  find / -name id_rsa.pub
+  889  pwd
+  890  ll
+  891  ssh-keygen -t rsa -C "53296245@qq.com"
+  892  vi ../.ssh/id_rsa
+  893  vi ../.ssh/id_rsa.pub 
+  894  git remote add origin git@github:yeman8/git.git
+  895  git push -u origin master
+  896  git clone git@github.com:yeman8/learngit
+  897  ll
+  898  git log --pretty=oneline
+  899  cd learngit/
+  900  git log --pretty=oneline
+  901  cd ..
+  902  ll -a
+  903  ll .git/
+  904  git remote add origin git@github:yeman8/git.git
+  905  git push -u origin master
+  906  git checkout -b dev
+  907  git branch dev
+  908  git branch
+  909  vim readme 
+  910  git add readme 
+  911  git commit -m "add dev"
+  912  git checkout master
+  913  cat readme 
+  914  git merge dev
+  915  cat readme 
+  916  git branch -d dev
+  917  git branch
+  918  git checkout -b "feature1"
+  919  vim readme 
+  920  git add readme 
+  921  git checkout master
+  922  git branch
+  923  vim readme 
+  924  git checkout feature1
+  925  git commit -c "ad feature1"
+  926  git status
+  927  cat readme 
+  928  git status
+  929  git add readme 
+  930  git status
+  931  git add readme 
+  932  git status
+  933  git reset HEAD readme 
+  934  git status
+  935  cat readme 
+  936  git status
+  937  git commit -c "..."
+  938  git commit -a
+  939  cat readme 
+  940  git commit -c "..."
+  941  git add readme 
+  942  git status
+  943  git add readme 
+  944  git status
+  945  git commit -c "..."
+  946  git branch
+  947  branch master
+  948  git branch master
+  949  git checkout  master
+  950  git status
+  951  vim readme 
+  952  git status
+  953  git add readme 
+  954  git commit -c "dd"
+  955  git commit -m "dd"
+  956  git status
+  957  git branch
+  958  git branch -d feature1
+  959  git branch -D feature1
+  960  git status
+  961  ll
+  962  ls -a
+  963  cd ..
+  964  ll
+  965  cd git/
+  966  ll
+  967  rm .git/
+  968  ll
+  969  rm readme 
+  970  ll
+  971  git init
+  972  ll
+  973  ls -a
+  974  rm .git/
+  975  rm -rf .git/
+  976  ls -a
+  977  git init
+  978  ll
+  979  git status
+  980  cd learngit/
+  981  ll
+  982  git status
+  983  cd ../..
+  984  ll
+  985  mkdir git2
+  986  cd git2
+  987  git init
+  988  git stauts
+  989  git status
+  990  git push
+  991  cd ..
+  992  rm -rf git2
+  993  cd git/
+  994  ll
+  995  cd ..
+  996  rm -rf git/
+  997  mkdir git
+  998  cd git
+  999  git init
+ 1000  git status
+ 1001  git clone git@github.com:yeman8/mygit
+ 1002  git clone git@github.com:yeman8/mygit.git
+ 1003  ll
+ 1004  cd mygit/
+ 1005  ls
+ 1006  ll
+ 1007  git status
+ 1008  cd ..
+ 1009  git status
+ 1010  git clone git@githum.com:yeman8/learngit.git
+ 1011  ls
+ 1012  git clone git@githum.com:yeman8/learngit
+ 1013  ls
+ 1014  git clone git@githum.com:yeman8/learngit
+ 1015  git clone git@github.com:yeman8/mygit.git
+ 1016  ll
+ 1017  rm -rf
+ 1018  ll
+ 1019  rm -rf mygit/
+ 1020  ll
+ 1021  git clone git@github.com:yeman8/mygit.git
+ 1022  ll
+ 1023  rm -rf mygit/
+ 1024  git clone git@github.com:yeman8/mygit.git
+ 1025  rm -rf mygit/
+ 1026  git clone git@github.com:yeman8/learngit.git
+ 1027  ll learngit/
+ 1028  cd learngit/
+ 1029  git status
+ 1030  vim read.txt 
+ 1031  ll
+ 1032  echo `date -F` >time.txt
+ 1033  echo `date -%F` >time.txt
+ 1034  echo `date %F` >time.txt
+ 1035  echo `date -F %y` >time.txt
+ 1036  echo `date -f %y` >time.txt
+ 1037  echo `date -f ` >time.txt
+ 1038  man date
+ 1039  date
+ 1040  date -f
+ 1041  date -d
+ 1042  date -d "%y"
+ 1043  date -d %y
+ 1044  date "%y"
+ 1045  date +"%y"
+ 1046  date -d "%y"
+ 1047  date -d +"%y"
+ 1048  date -d +"3days %d"
+ 1049  date -d +"3 days %d"
+ 1050  date -d "3 days %d"
+ 1051  date -d "3 day %d"
+ 1052  date -d "3 days" +%d
+ 1053  date -s 20180515
+ 1054  date
+ 1055  date -%F
+ 1056  date %F
+ 1057  date -F
+ 1058  man date
+ 1059  date -f read.txt 
+ 1060  cd ..
+ 1061  ll
+ 1062  cd ..
+ 1063  ll
+ 1064  date -f test.txt 
+ 1065  ls
+ 1066  cd git
+ 1067  cd learngit/
+ 1068  ll
+ 1069  date -f 1.txt 
+ 1070  cat 1.txt 
+ 1071  statu 1.txt 
+ 1072  status 1.txt 
+ 1073* stat 1.txt da
+ 1074  date -u
+ 1075  date 
+ 1076  date -d
+ 1077  date -d "%Y-%m-%d"
+ 1078  date -d +"%Y-%m-%d"
+ 1079  date  +"%Y-%m-%d"
+ 1080  date -d "3 day"  +"%Y-%m-%d"
+ 1081  date -d "3 days"  +"%Y-%m-%d"
+ 1082  date -d "-3 days"  +"%Y-%m-%d"
+ 1083  date
+ 1084  date +"%d"
+ 1085  date +"%f"
+ 1086  date +"%F"
+ 1087  hclock
+ 1088  hwclock
+ 1089  date +"%F"
+ 1090  date
+ 1091  ll
+ 1092  cat time.txt 
+ 1093  echo `date +"%f"`>>time.txt 
+ 1094  cat time.txt 
+ 1095  echo date +"%f"
+ 1096  echo date +"%F"
+ 1097  date +"%F"
+ 1098  date +"%F">>time.txt 
+ 1099  cat time.txt 
+ 1100  echo date +"%F" +
+ 1101  echo date +"%F %h m i"
+ 1102  echo date +"%F %h %m %i"
+ 1103  echo date +"%F "
+ 1104  date +"%F %h %m %i"
+ 1105  date +"%F %h %m %s"
+ 1106  date +"%F %h %m %I"
+ 1107  date +"%F %H %m %I"
+ 1108  date
+ 1109  date +"%F %H %m %i"
+ 1110  date +"%F %H %m %s"
+ 1111  date +"%F %H %m %S"
+ 1112  date +"%F %H %m %U"
+ 1113  man date
+ 1114  ls
+ 1115  cat time.txt 
+ 1116  sed -i s#^$##g time.txt 
+ 1117  sed -i "s#^$##g" time.txt 
+ 1118  sed -i "/s#^$##g/" time.txt 
+ 1119  sed "s/f/a/g" time.txt 
+ 1120  sed "s#f#a#g" time.txt 
+ 1121  sed -i "s#f#a#g" time.txt 
+ 1122  cat time.txt 
+ 1123  sed -i "s#^$##g" time.txt 
+ 1124  sed -i "s# ^$ ##g" time.txt 
+ 1125  cat time.txt 
+ 1126  sed -i "s# ^$##g" time.txt 
+ 1127  sed -i "s#^$ ##g" time.txt 
+ 1128  cat time.txt 
+ 1129  sed "s#^$ ##g" time.txt 
+ 1130  sed -n "s#^$ ##g" time.txt 
+ 1131  sed "s#^$ ##g"/d time.txt 
+ 1132  sed "s#^$ ##g" time.txt 
+ 1133  sed "s#^.$ ##g" time.txt 
+ 1134  sed "s#^.$##g" time.txt 
+ 1135  sed "s/^.$//g" time.txt 
+ 1136  sed "s/^$//g" time.txt 
+ 1137  sed -i "s/^$//g" time.txt 
+ 1138  cat time.txt 
+ 1139  grep /^$/ time.txt 
+ 1140  grep /%/ time.txt 
+ 1141  grep /f/ time.txt 
+ 1142  grep /a/ time.txt 
+ 1143  grep a time.txt 
+ 1144  grep ^$ time.txt 
+ 1145  cat time.txt 
+ 1146  sed -i "s/^$//g time.txt 
+sed -i "s/^$//g time.txt 
+ 1147  sed -i "s/^$//g" time.txt 
+ 1148  cat time.txt 
+ 1149  grep ^$ time.txt 
+ 1150  sed ^$ time.txt 
+ 1151  sed /^$/ time.txt 
+ 1152  sed "^$" time.txt 
+ 1153  sed -e "^$" time.txt 
+ 1154  sed -i 's/^$//g' time.txt 
+ 1155  cat time.txt 
+ 1156  sed -i 's/^*$//g' time.txt 
+ 1157  cat time.txt 
+ 1158  sed -i 's/^ *$//g' time.txt 
+ 1159  cat time.txt 
+ 1160  sed -i '/^ *$//d' time.txt 
+ 1161  sed -i '/^ *$/d' time.txt 
+ 1162  cat time.txt 
+ 1163  vim time.txt 
+ 1164  sed -i '/^$/d' time.txt 
+ 1165  vim time.txt 
+ 1166  sed -i 's/^*$/aaa/g' time.txt 
+ 1167  vim time.txt 
+ 1168  sed 's/a/bb/g' time.txt 
+ 1169  sed 's/^$/bb/g' time.txt 
+ 1170  sed 's/^$/ /g' time.txt 
+ 1171  sed 's/^$//g' time.txt 
+ 1172  sed 's/^$/dd/g' time.txt 
+ 1173  sed 's/^$/""/g' time.txt 
+ 1174  sed 's/^$/null/g' time.txt 
+ 1175  sed 's/^$//g' time.txt 
+ 1176  sed '/^$/d' time.txt 
+ 1177  sed -i'/%s/d' time.txt 
+ 1178  sed -i '/%s/d' time.txt 
+ 1179  vim time.txt 
+ 1180  sed -i '/%a/d' time.txt 
+ 1181  vim time.txt 
+ 1182  sed -i '/^$/d' time.txt 
+ 1183  vim time.txt 
+ 1184  ll
+ 1185  date +"%F %T">>time.txt 
+ 1186  ll
+ 1187  catg time.txt 
+ 1188  cat time.txt 
+ 1189  catg time.txt 
+ 1190  date +"%F %T">>time.txt 
+ 1191  cat time.txt 
+ 1192  git add time.txt 
+ 1193  git status
+ 1194  git commit -m "add time"
+ 1195  git status
+ 1196  ll
+ 1197  ls
+ 1198  git push -u origin master
+ 1199  git vim time.txt 
+ 1200  vim time.txt 
+ 1201  date +"%F %T">>time.txt 
+ 1202  git status
+ 1203  git add time.txt 
+ 1204  git status
+ 1205  git commit -m "add time 2"
+ 1206* git push origin master
+ 1207* 
+ 1208  git add time.txt 
+ 1209  git commit -m "mod time"
+ 1210  git push origin master
+ 1211  date +"%F %T">>time.txt 
+ 1212  git add time.txt 
+ 1213  git commit -m "mod time 2"
+ 1214  git push origin master
+ 1215  ls
+ 1216  rm time.txt 
+ 1217  ls
+ 1218  git clone git@github.com:yeman8/learngit/time.txt
+ 1219  ls
+ 1220  git head
+ 1221  git HEAD
+ 1222  git status
+ 1223  git checkout --time.txt
+ 1224  git checkout -- time.txt
+ 1225  ls
+ 1226  git rm 1.txt
+ 1227  ls
+ 1228  git commit -m "del 1.txt"
+ 1229  ls
+ 1230  git checkout -- 1.txt
+ 1231  git log --pretty=onelin
+ 1232  git HEAD e5155a252d8
+ 1233  git reset --hard e5155a252d8
+ 1234  git log --pretty=onelin
+ 1235  ls
+ 1236  cd ..
+ 1237  ls
+ 1238  rm -rf learngit/
+ 1239  git clone git@github.com:yeman8/learngit.git
+ 1240  ls
+ 1241  git clone git@github.com:yeman8/learngit.git
+ 1242  cd learngit/
+ 1243  ls
+ 1244  git init
+ 1245  ls
+ 1246  rm 1.txt 
+ 1247  git remote add origin git@github.com:yeman8/learngit.git
+ 1248  cd ..
+ 1249  git remote add origin git@github.com:yeman8/learngit.git
+ 1250  ls learngit/
+ 1251  git fetch
+ 1252  ls learngit/
+ 1253  git reflog
+ 1254  git log --pretty=oneline
+ 1255  ls
+ 1256  cd learngit/
+ 1257  git reflog
+ 1258  git log --pretty=oneline
+ 1259  git reflog
+ 1260  pwd
+ 1261  cd ..
+ 1262  ls learngit/
+ 1263  git status
+ 1264  git remote -v
+ 1265  gie fetch origin master
+ 1266  git fetch origin master
+ 1267  ls
+ 1268  ls learngit/
+ 1269  git log
+ 1270  cd learngit/
+ 1271  git log
+ 1272  git log --pretty=oneline
+ 1273  ll
+ 1274  git pull
+ 1275  ll
+ 1276  cat 1.txt 
+ 1277  git branch -a 
+ 1278  git branch 
+ 1279  git branch -r
+ 1280  ll
+ 1281  echo "to server">3.txt
+ 1282  cat 3.txt 
+ 1283  git push origin master
+ 1284  git add 3.txt 
+ 1285  git commit -m "add 3"
+ 1286  git push 
+ 1287  git push origin master
+ 1288  history>>3.txt 
